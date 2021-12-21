@@ -1,0 +1,48 @@
+<html>
+<head>
+<style>
+.myDiv {
+  border: 5px solid #90575e;
+  background-color: #a3807f;
+  text-align: center;
+}
+
+.myHr{
+	border: 2px solid #90575e ;
+}
+</style>
+</head>
+<title>Kvíz</title>
+<body bgcolor="#decfcd">
+<div class="myDiv">
+<h1 id="kteryucitel" style="font-family:Verdana; color:#decfcd"><center>Který učitel z AG jsi?</center></h1>
+</div>
+<br>
+
+<p id="endtext"> </p>
+<p id="endpicture"> </p>
+
+<form id="kviz">
+	<label id="question" style="font-family:Helvetica"><font size=+1>Jaká je tvá oblíbená barva?</font></label>
+	<hr class="myHr">
+	<br>
+	<input type="radio" id="question1" name="questions">
+		<label for="question1" id="label1"> žlutá</label><br>
+	<input type="radio" id="question2" name="questions">
+		<label for="question2" id="label2"> modrá</label><br>
+	<input type="radio" id="question3" name="questions">
+		<label for="question3" id="label3"> červená</label><br>
+	<input type="radio" id="question4" name="questions">
+		<label for="question4" id="label4"> černá</label><br>
+	<input type="radio" id="question5" name="questions">
+		<label for="question5" id="label5"> oranžová</label><br>
+	<input type="radio" id="question6" name="questions">
+		<label for="question6" id="label6"> bílá</label><br>
+
+</form>
+<div></div>
+<button id="sendButton">Pokračovat</button>
+</body>
+<script type="text/javascript" src="data.json"></script>
+<script type="text/javascript" src="ucitel.js"></script>
+</html>
